@@ -13,5 +13,5 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}!`))
 
-setInterval(() => http.get(HOST), 300000) // every 5 minutes (300000)
+setInterval(() => http.get(HOST), 1200000) // every 20 minutes
 
